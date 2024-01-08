@@ -1,4 +1,5 @@
 //your JS code here. If required.
+function displayFormValues(){ 
 var firstName = document.getElementById('firstName').value;
     var lastName = document.getElementById('lastName').value;
     var phone = document.getElementById('phone').value;
@@ -10,3 +11,4 @@ var firstName = document.getElementById('firstName').value;
                   "Phone Number: " + phone + "\n" +
                   "Email: " + email;
 alert(message);
+}
